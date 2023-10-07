@@ -10,7 +10,7 @@ export const Projects = () => {
             <StyledBackground>
                 <StyledImgCover />
                 <StyledContent>
-                    <StyledTitle>Projects</StyledTitle>
+                    <StyledTitle>Proyectos</StyledTitle>
 					<StyledParagraph>Estos son algunos de mis proyectos personales</StyledParagraph>
 
                     <StyledProjectContainer>

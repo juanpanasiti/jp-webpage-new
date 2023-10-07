@@ -12,7 +12,7 @@ export const Hero = () => {
             <StyledBackground>
                 <StyledImgCover />
                 <StyledContent>
-                    <StyledText>Fullstack dev - English B1</StyledText>
+                    <StyledText>{'<FullstackDev  english="B1" />'}</StyledText>
                     <StyledTitle>Juan M. Panasiti</StyledTitle>
                     <StyledText>{stack.join(' | ')}</StyledText>
                     <StyledBtnContainer>
