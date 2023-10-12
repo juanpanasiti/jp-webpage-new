@@ -5,7 +5,7 @@ import {
     Hero,
     ProfessionalHistory,
     Projects,
-    // Skills,
+    Skills,
 } from '../components/landing-sections';
 
 export const LandingPage = () => {
@@ -15,7 +15,7 @@ export const LandingPage = () => {
             <AboutMe />
             <ProfessionalHistory />
             {/* <Education /> */}
-            {/* <Skills /> */}
+            <Skills />
             <Projects />
             {/* <ContactMe /> */}
         </>

@@ -1,0 +1,86 @@
+.skill-card {
+    width: 195px;
+    height: 285px;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    transition: 0.2s ease-in-out;
+
+    max-width: 350px;
+    background-color: rgb(7 16 45);
+    background: linear-gradient(to top right, rgb(7 16 45), rgb(58 60 84));
+    background: -webkit-linear-gradient(to top right, rgb(7 16 45), rgb(58 60 84));
+    padding: 20px;
+    border: 1px solid rgb(84 90 106);
+}
+
+.img {
+    max-height: 285px;
+    max-width: 195px;
+    height: auto;
+    width: auto;
+    position: absolute;
+    transition: 0.2s ease-in-out;
+    z-index: 1;
+}
+
+.textBox {
+    opacity: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 15px;
+    transition: 0.2s ease-in-out;
+    z-index: 2;
+}
+
+.textBox > .text {
+    font-weight: bold;
+}
+
+.textBox > .head {
+    font-size: 20px;
+}
+
+.textBox > .description {
+    font-size: 17px;
+    font-weight: 400;
+    text-align: center;
+}
+
+.textBox > span {
+    font-size: 14px;
+    color: lightgrey;
+}
+
+.skill-card:hover > .textBox {
+    opacity: 1;
+}
+
+.skill-card:hover > .img {
+    /* height: 65%; */
+    filter: blur(7px);
+    animation: anim 3s infinite;
+}
+
+@keyframes anim {
+    0% {
+        transform: translateY(0);
+    }
+
+    50% {
+        transform: translateY(-20px);
+    }
+
+    100% {
+        transform: translateY(0);
+    }
+}
+
+.skill-card:hover {
+    transform: scale(1.04) rotate(-1deg);
+}
