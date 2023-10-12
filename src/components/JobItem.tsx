@@ -35,10 +35,14 @@ const StyledJobContainer = styled.div`
 `;
 const StyledPlaceTitle = styled.div`
     font-size: 1.7rem;
+    color: rgba(255, 61, 61, 0.4);
+    font-weight: 500;
+
     span {
         font-size: 1rem;
         font-family: 'Inconsolata';
         color: #f5f5f5aa;
+        
     }
 `;
 const StyledJobPeriod = styled.div`

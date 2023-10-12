@@ -23,6 +23,17 @@ export const jobList: Job[] = [
         ],
     },
     {
+        companyName: 'CoderHouse',
+        period: 'Octubre 2021 - Marzo 2022',
+        modality: 'remoto',
+        role: 'Tutor Python/Django',
+        description: ['Tutorías de Python y Django.'],
+        experience: [
+            'Primer acercamiento a mentorear y compartir lo que he aprendido.',
+            'Solo estuve por un par de comisiones, luego por cuestiones de tiempo tuve que dejar, pero fue una de las experiencas más gratificantes.',
+        ],
+    },
+    {
         companyName: 'Comparaencasa.com',
         period: 'Octubre 2021 - Octubre 2022',
         modality: 'remoto',
