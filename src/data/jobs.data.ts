@@ -9,6 +9,18 @@ export interface Job {
 
 export const jobList: Job[] = [
     {
+        companyName: 'Avature',
+        period: 'Diciembre 2023 - Actualidad',
+        modality: 'remoto',
+        role: 'Software Engineer',
+        description: [
+            'Desarrollador dentro del team de Natural Language Processing en 2 proyectos internos desarrollados en Java y PHP. Además, utilizo otras herramientas como Docker, GitLab y varias herramientas que son de desarrollo interno de Avature y mantenidas por otros equipos.',
+        ],
+        experience: [
+            'Este nuevo desafío implica el desarrollo de habilidades en otros lenguajes, nuevos en mi stack de habilidades, que son Java y PHP, además poder desarrollarme más en temas de seguridad y buenas prácticas de desarrollo.',
+        ],
+    },
+    {
         companyName: 'Conectapps (Parte de Cloud Solutions)',
         period: 'Octubre 2022 - Octubre 2023',
         modality: 'remoto',
